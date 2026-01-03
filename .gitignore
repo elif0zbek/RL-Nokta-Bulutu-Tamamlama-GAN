@@ -1,0 +1,24 @@
+# --- Python Gereksiz Dosyaları ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- Proje Özel Klasörleri ---
+# Veri seti çok büyük olduğu için git'e yüklenmemeli
+data/ 
+
+# Eğitimde oluşan model ağırlıkları çok ağır olduğu için yüklenmemeli
+models/V3_Interleaved/*.pth
+
+# Üretilen sonuç görselleri çıktı olduğu için yüklenmemeli
+Sonuc_Raporu/
+
+# --- IDE ve Kişisel Ayarlar ---
+# VS Code yerel ayarları (kendi interpreter yolun gibi kişisel bilgiler içerir)
+.vscode/
+.idea/
+
+# --- İşletim Sistemi Dosyaları ---
+.DS_Store
+Thumbs.db
